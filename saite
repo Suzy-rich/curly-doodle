@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сусанна Кириченко - Психолог</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #F5F5F5;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #2C3E50;
+        }
+        .header h2 {
+            color: #66A182;
+        }
+        .header p {
+            color: #333333;
+        }
+        .cta-buttons {
+            margin-top: 20px;
+        }
+        .cta-buttons button {
+            background-color: #FFA726;
+            border: none;
+            padding: 15px 30px;
+            margin: 5px;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .cta-buttons button.secondary {
+            background-color: transparent;
+            border: 2px solid #2C3E50;
+            color: #2C3E50;
+            transition: all 0.3s ease;
+        }
+        .cta-buttons button:hover {
+            background-color: #E6891C;
+        }
+        .cta-buttons button.secondary:hover {
+            background-color: #2C3E50;
+            color: #ffffff;
+        }
+        .header img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Вітаю, я Сусанна Кириченко</h1>
+        <h2>Психолог/психотерапевт</h2>
+        <p>Допомагаю розібратися з емоційним станом та покращити якість життя</p>
+        <div class="cta-buttons">
+            <button>Знайомитись</button>
+            <button class="secondary">Записатись</button>
+        </div>
+        <img src="/mnt/data/IMG_2882.JPG" alt="Сусанна Кириченко">
+    </div>
+</body>
+</html>
